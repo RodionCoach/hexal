@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- mobile first! scale for device -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hexal</title>
+    <link rel="stylesheet" href="src/styles/css/fonts.css">
+    <link rel="stylesheet" href="src/styles/css/style.css">
+    <link rel="icon" type="image/png" href="src/assets/favicon.ico"/>
+</head>
+<body>
+    <header>
+        <div class="back">
+        </div>
+        <div class="content">
+            <nav class="navigation">
+                <div class="navigation__left">
+                    <a href="#portfolio">Portfolio</a>
+                    <span>&bull;</span>
+                    <a href="#blog">About</a>
+                </div>
+                <div class="navigation__center">
+                    <img src="src/assets/icon/Logo.png" alt="Logo">
+                </div>
+                <div class="navigation__right">
+                    <a href="#blog">Blog</a>
+                    <span>&bull;</span>
+                    <a href="#get-in-touch">Get in touch</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="top-line">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <section class="hexagon-container" id="portfolio">
+            <div class="content">
+                <div class="hexagon-block-border">
+                    <div class=row>
+                        <div class="line"></div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/1.webp" alt="hexal_1">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/2.webp" alt="hexal_2">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/3.webp" alt="hexal_3">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/4.webp" alt="hexal_4">
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class=row>
+                        <div class="hexagon">
+                            <img src="src/assets/img/5.webp" alt="hexal_5">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/6.webp" alt="hexal_6">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/7.webp" alt="hexal_7">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/8.webp" alt="hexal_8">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/9.webp" alt="hexal_9">
+                        </div>
+                    <div class=row>
+                        <div class="line"></div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/10.webp" alt="hexal_10">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/11.webp" alt="hexal_11">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/12.webp" alt="hexal_12">
+                        </div>
+                        <div class="hexagon">
+                            <img src="src/assets/img/13.webp" alt="hexal_13">
+                        </div>
+                        <div class="line"></div> 
+                    </div>
+                    <div class="slider">
+                        <ul class="slide">
+                            <li></li>
+                            <li></li>
+                            <li class="active"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" > 
+            <div class="content">
+                <article>
+                    <div class="about__photo">
+                        <div class="hexagon">
+                            <img src="src/assets/img/person.webp" alt="Person">
+                        </div>
+                    </div>
+                    <div class="about__info">
+                        <h1>Smith Anderson</h1>
+                        <p class="about__subtitle">Illustrator & Character Designer</p>
+                        <p class="about__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhon- cus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+                        <div class="about__social">
+                            <a href="https://facebook.com" target="_blank"><img src="src/assets/icon/Facebook.png" alt="Facebook"></a>
+                            <a href="https://twitter.com" target="_blank"><img src="src/assets/icon/Twitter.png" alt="Twitter"></a>
+                            <a href="https://plus.google.com" target="_blank"><img src="src/assets/icon/Google.png" alt="Google"></a>
+                            <a href="https://pinterest.com/" target="_blank"><img src="src/assets/icon/Pinterest.png" alt="Pinterest"></a>
+                            <a href="https://linkedin.com" target="_blank"><img src="src/assets/icon/Linkedin.png" alt="Linkedin"></a>
+                            <a href="https://dribbble.com" target="_blank"><img src="src/assets/icon/Dribbble.png" alt="Dribbble"></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="contacts" id="get-in-touch">
+            <div class="content">
+                <div class="contacts__content">
+                    <h2>Get In Touch</h2>
+                    <legend>In order to get in touch use the contact form below:</legend>
+                    <div class="contacts__border">
+                        <form action="#" method="POST" class="contacts__form">
+                            <fieldset>
+                                <input name="name" type="text" placeholder="Name (Required)" required>
+                                <input name="email" type="email" placeholder="Email (Required)" required>
+                                <input name="subject" type="text" placeholder="Subject">
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                            </fieldset>
+                            <button type="submit">SEND</button>
+                        </form>
+                    
+                        <div class="contacts__comment">
+                            <p><strong>Quisque Hendrerit</strong>: purus dapi- bus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae.</p>
+                            <address>
+                                <a href="http://maps.google.com/maps?q=Elm+St.+14/05+Lost+City" target="_blank"><span class="icon"><img src="src/assets/icon/location.png" alt="location"></span> Elm St. 14/05 Liberty City </a></p>
+                                <a href="tel:+35283318635"><span class="icon"><img src="src/assets/icon/phone.png" alt="phone"></span>+ 375 29 *** ** **</a>
+                                <a href="mailto:info@hexalcorp.com"><span class="icon"><img src="src/assets/icon/mail.png" alt="mail"></span>info@hexalcorp.com</a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="copyright">
+            <div class="content">© Copyright 2013 by RodionCoach</div>
+        </div>
+    </footer>
+</body>
+</html>
